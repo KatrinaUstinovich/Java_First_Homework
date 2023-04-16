@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class first_homework {
+    public static void main(String[] args){
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Please enter your name: ");
+        String firstName = reader.nextLine();
+        System.out.println("Please enter your surname: ");
+        String secondName = reader.nextLine();
+        String fullName = firstName + " " +secondName;
+        System.out.println("Full name: " + fullName);
+    }
+}
